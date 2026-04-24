@@ -3,7 +3,7 @@ import yfinance as yf
 
 st.title("📊 Finance Dashboard")
 
-ticker = st.text_input("Ticker", "AAPL")
+ticker = st.text_input("Ticker", "MSFT")
 
 data = yf.download(ticker, start="2023-01-01")
 
